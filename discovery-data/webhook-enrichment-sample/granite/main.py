@@ -47,7 +47,7 @@ Input:
 "We aimed to delineate the early transcriptional response in human primary bronchial epithelial cells exposed for 6 h to a mixture of IL-1and TNF-or heat-inactivated Pseudomonas aeruginosa.
 
 Named Entities:
-human primary bronchial epithelial cells: cell type, IL-1b: gene_protein, TNF-a: gene_protein, Pseudomonas aeruginosa: bacteria
+human primary bronchial epithelial cells: cell_type, IL-1b: gene_protein, TNF-a: gene_protein, Pseudomonas aeruginosa: bacteria
 
 Input:
 {text}
