@@ -41,13 +41,13 @@ def extract_entities(text):
     # Prompt
     payload = {
         'model_id': 'ibm/granite-13b-instruct-v2',
-        'input': f'''Act as a webmaster who must extract structured information from emails. Read the below email and extract and categorize each entity. If no entity is found, output "None".
+        'input': f'''Act as a scientist who must extract structured information from scientific publications. Read the below scientific publication and extract and categorize each entity. If no entity is found, output "None".
 
 Input:
-"Golden Bank is a competitor of Silver Bank in the US" said John Doe.
+"We aimed to delineate the early transcriptional response in human primary bronchial epithelial cells exposed for 6 h to a mixture of IL-1and TNF-or heat-inactivated Pseudomonas aeruginosa.
 
 Named Entities:
-Golden Bank: company, Silver Bank: company, US: country, John Doe: person
+human primary bronchial epithelial cells: cell type, IL-1b: gene_protein, TNF-a: gene_protein, Pseudomonas aeruginosa: bacteria
 
 Input:
 {text}
